@@ -2,7 +2,7 @@
   "name": "whoami",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://maromaua.github.io/snake-game/",
+  "homepage": "https://maromaua.github.io/whoami/",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
