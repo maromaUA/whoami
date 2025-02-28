@@ -44,13 +44,13 @@ function App() {
          <button onClick={handleFind}>Find</button>
       </div>
        <ul>
-        <h3>Nationality</h3>
-        {listCountries}
+       {age && <div><h3>Nationality</h3> {listCountries}</div>} 
+        
        </ul>
-       <h3>Gender</h3>
-       <p>{gender.gender}    {gender.probability*100}%</p>
-       <h3>Age</h3>
-       <p>{age}</p>
+       {age && <div><h3>Gender</h3> <p>{gender.gender}    {gender.probability*100}%</p></div>}
+       
+       {age && <div><h3>Age</h3> <p>{age}</p></div>}
+       
    </div>
     </div>
   );
